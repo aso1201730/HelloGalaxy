@@ -18,7 +18,7 @@
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/edtFirst"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView1"
@@ -35,29 +35,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView1"
-        android:layout_below="@+id/editText1"
+        android:layout_below="@+id/edtFirst"
         android:layout_marginTop="22dp"
         android:text="Family Name"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/edtFamily"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/TextView01"
         android:layout_alignBottom="@+id/TextView01"
-        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignLeft="@+id/edtFirst"
         android:ems="7"
         android:inputType="textPersonName" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btnOK"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/TextView01"
         android:layout_alignRight="@+id/textView1"
-        android:layout_below="@+id/editText2"
+        android:layout_below="@+id/edtFamily"
         android:layout_marginTop="15dp"
         android:text="OK" />
 
@@ -66,16 +66,16 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button1"
-        android:layout_toRightOf="@+id/button1"
+        android:layout_alignTop="@+id/btnOK"
+        android:layout_toRightOf="@+id/btnOK"
         android:text="Cancel" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtMsg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:layout_toRightOf="@+id/button1"
+        android:layout_toRightOf="@+id/btnOK"
         android:text="Large Text"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
