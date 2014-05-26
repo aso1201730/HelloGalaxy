@@ -1,6 +1,7 @@
 package com.example.hellogalaxy;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -38,7 +39,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
 				TextView tv = (TextView)findViewById(R.id.txtMsg);
 				tv.setText("あなたでしたか、" + inputMsg + inputMsg2 + "さん。");
+				Intent intent = new Intent(MainActivity.this, MsgActivity.class);
 
+				startActivity(intent);
 		}
 
 	}
